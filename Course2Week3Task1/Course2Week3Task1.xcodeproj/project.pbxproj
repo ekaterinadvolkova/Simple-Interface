@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22AC4AFB2868ECBB00F7C12C /* CalculateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22AC4AFA2868ECBB00F7C12C /* CalculateView.xib */; };
+		22AC4AFD2868ECDC00F7C12C /* CalculateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AC4AFC2868ECDC00F7C12C /* CalculateView.swift */; };
 		74C29C64201A107B004E418D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C29C63201A107B004E418D /* AppDelegate.swift */; };
 		74C29C66201A107C004E418D /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C29C65201A107C004E418D /* CalculatorViewController.swift */; };
 		74C29C69201A107C004E418D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C29C67201A107C004E418D /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22AC4AFA2868ECBB00F7C12C /* CalculateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculateView.xib; sourceTree = "<group>"; };
+		22AC4AFC2868ECDC00F7C12C /* CalculateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateView.swift; sourceTree = "<group>"; };
 		74C29C60201A107B004E418D /* Course2Week3Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Course2Week3Task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C29C63201A107B004E418D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74C29C65201A107C004E418D /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,8 @@
 				74C29C63201A107B004E418D /* AppDelegate.swift */,
 				74C29C65201A107C004E418D /* CalculatorViewController.swift */,
 				74C29C67201A107C004E418D /* Main.storyboard */,
+				22AC4AFA2868ECBB00F7C12C /* CalculateView.xib */,
+				22AC4AFC2868ECDC00F7C12C /* CalculateView.swift */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 				74C29C6E201A107C004E418D /* LaunchScreen.storyboard in Resources */,
 				74C29C6B201A107C004E418D /* Assets.xcassets in Resources */,
 				74C29C69201A107C004E418D /* Main.storyboard in Resources */,
+				22AC4AFB2868ECBB00F7C12C /* CalculateView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74C29C66201A107C004E418D /* CalculatorViewController.swift in Sources */,
+				22AC4AFD2868ECDC00F7C12C /* CalculateView.swift in Sources */,
 				74C29C64201A107B004E418D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
